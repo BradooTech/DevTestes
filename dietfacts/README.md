@@ -27,6 +27,8 @@ If the value is to be searched on some model based on a criteria, we write value
 
     - !function {model: account.invoice, name: pay_and_reconcile}: - model: account.account search: "[('type', '=', 'cash')]" This will fetch all those account.account records whose type is equal to 'cas
 
+[kkkkkllllllllllllllll]
+[kkllllllllll]
 -
 
     !python {model: account.invoice}: |
@@ -44,8 +46,8 @@ The invoice must be in draft state:
 To test that all account are in a tree data structure, we write the below python code:
 
 -
-
-    !python {model: account.account}:
+[´´´´´´´´]
+    python {model: account.account}:
 
         ids = self.search(cr, uid, [])
 
@@ -53,7 +55,7 @@ To test that all account are in a tree data structure, we write the below python
 
         accounts = dict((x['id'], x) for x in accounts_list)
 
-        log("Testing parent structure for %d accounts", len(accounts_list))
+    
 
         for a in accounts_list:
 
@@ -84,5 +86,14 @@ Running tests
         Add the yaml file under 'demo_xml' in terp file
 
         Run the server with '--log-level=test' option
+
+
+11111111111111111222222222222222222222222222223333333333333333333333333333333
+
+44444
+
+55
+
+1
 
 
