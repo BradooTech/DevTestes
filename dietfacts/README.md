@@ -1,5 +1,6 @@
 # OdooTest
 Testes realizados no Odoo
+<<<<<<< HEAD
 Tentativa 1
 
 up vote
@@ -8,10 +9,16 @@ down vote
 In this particular use case, you don't really want to abort the merge, just resolve the conflict in a particular way.
 
 There is no particular need to reset and perform a merge with a different strategy, either. The conflicts have been correctly highlighted by git and the requirement to accept the other sid
+=======
+
+	
+
+>>>>>>> 84405b2fc452d786919bec9ffeda6ff384fad25d
 
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -82,3 +89,11 @@ To test that all account are in a tree data structure, we write the below python
         Run the server with '--log-level=test' opt6566666666666
 
 111111111111111111111111111111111111111111111111111111111
+=======
+You can directly do:
+
+git checkout <original-remote-branch-name>
+This automatically creates a local branch which tracks the remote branch with the same name. Do this always after cloning, if you want to work on a particular branch other than master.
+
+Note: When you clone the remote name is by default 'origin' which is different from the remote name used in other machines where you are developing. So, you can initially name your remote before cloning or push to origin ever after.
+>>>>>>> 84405b2fc452d786919bec9ffeda6ff384fad25d
