@@ -3,7 +3,7 @@
     'name': "dietfacts",
 
     'description': """
-        Modulo basico
+        Modulo básico
     """,
 
     'author': "Diogo Berti, Bradoo",
