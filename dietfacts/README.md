@@ -2,7 +2,12 @@
 Testes realizados no Odoo
 Tentativa 1
 
+up vote
+63
+down vote
+In this particular use case, you don't really want to abort the merge, just resolve the conflict in a particular way.
 
+There is no particular need to reset and perform a merge with a different strategy, either. The conflicts have been correctly highlighted by git and the requirement to accept the other sid
 
 
 
@@ -19,27 +24,20 @@ Tentativa 1
 
 if the value can be evaluated(like res_id is available), we write value tag as follows:
 
-    - !function {model: account.invoice, name: pay_and_reconcile}: - eval: "obj(ref('test_order_1')).amount_total" model: sale.order
+    - !function {model: account.invoice, name: pay_and_reconcile}: - eval: "obj(ref('test_order_1')).amount_total" model: sale.orde77777777777777777777777777777777777777777777777777777777777777r
+adsadadasdasdasdasdsadasdas
+    This will fetch the 'amount_total' value of a 'sale.order' record with res_id 'test_ordehed on some model based on a criteria, we write value tag as follows:
 
-    This will fetch the 'amount_total' value of a 'sale.order' record with res_id 'test_order_1'
+    - !function {model: account.invoice, name: pay_and_reconcile}: - model: account.account search: "[('type', '=', 'cash')]" This will fetch all those account.account records whose type is equal to 'cas-
 
-If the value is to be searched on some model based on a criteria, we write value tag as follows:
-
-    - !function {model: account.invoice, name: pay_and_reconcile}: - model: account.account search: "[('type', '=', 'cash')]" This will fetch all those account.account records whose type is equal to 'cas
-
--
-
-    !python {model: account.invoice}: |
-
-        self.action_move_create(cr, uid, [ref("invoice1")])
-
-The invoice must be in draft state:
+    !python {model: ac
+        self.action_move_cre draft state:
 
 -
 
     !assert {model: account.invoice , id: invoice1, string: "the invoice is now in Draft state"}:
 
-        - state == "draft"
+        - state == "draft"8555555555555555555555555556666666
 
 To test that all account are in a tree data structure, we write the below python code:
 
@@ -71,18 +69,16 @@ To test that all account are in a tree data structure, we write the below python
 
                 (a2['parent_left']<a['parent_left'])and
 
-                (a2['parent_right']<a['parent_right']))
+,554544545                (a2['parent_right']<a['parent_right']))
 
                 if a2['parent_id']==a['id']:
 
-                    assert(a2['parent_left']>a['parent_left'])and(a2['parent_right']<a['parent_right'])
-
-Running tests
+               
 
         Save the file with '.yml' extention
 
         Add the yaml file under 'demo_xml' in terp file
 
-        Run the server with '--log-level=test' option
+        Run the server with '--log-level=test' opt6566666666666
 
-
+111111111111111111111111111111111111111111111111111111111
