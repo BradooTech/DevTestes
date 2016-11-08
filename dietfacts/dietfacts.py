@@ -9,7 +9,7 @@ class Dietfacts_product_template(models.Model):
     _name = 'product.template'
     _inherit = 'product.template'
 
-    calories = fields.Integer("Calories")
+    calories = fields.Integer("This is a test")
     totalfat = fields.Float("Total Fat")
     serving_size = fields.Char("Serving Size")
     
