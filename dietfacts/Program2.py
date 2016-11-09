@@ -1,7 +1,7 @@
-# -*- coding: utf-8 -*-
-#Dietfacts Application
+# -*- codtf-8 -*-
+#D
 
-class qqrcoisa():
+class __init__():
 	
 	#Definir funcao1
 	def function1():
@@ -14,11 +14,15 @@ class qqrcoisa():
 		for item in list:
 			print item
 
-		print list
-		#Mais comentarios desnecessários
+	#utilizar as funcoes no main
+	def main()
+		novalista = []
+		novalista.append(3)
+
+		 print ("finishing application")
 
 
-
+		function2novalista)
 
 
 
