@@ -15,4 +15,8 @@ class qqrcoisa():
 
 	#utilizar as funcoes no main
 	def main():
-	
+		#Comentario inutil
+		novalista = []
+		novalista.append(3)
+		function2(novalista)
+		
