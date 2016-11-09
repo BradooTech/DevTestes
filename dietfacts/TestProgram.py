@@ -9,6 +9,9 @@ class qqrcoisa():
 
 
 	#definir funcao2
-	def function2():
+	def function2(list):
+		for item in list:
+			print item
+
 
 
