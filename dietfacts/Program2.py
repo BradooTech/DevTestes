@@ -5,7 +5,7 @@ class qqrcoisa():
 	
 	#Definir funcao1
 	def function1():
-	
+		print ("print")	
 
 	#definir funcao2
 	def function2(list):
@@ -15,4 +15,4 @@ class qqrcoisa():
 
 	#utilizar as funcoes no main
 	def main():
-	
+		print ("starting application")
