@@ -5,7 +5,7 @@ class qqrcoisa():
 	
 	#Definir funcao1
 	def function1():
-	
+		print ("print")	
 
 	#definir funcao2
 	def function2(list):
@@ -19,4 +19,4 @@ class qqrcoisa():
 		novalista = []
 		novalista.append(3)
 		function2(novalista)
-		
+		print ("starting application")
