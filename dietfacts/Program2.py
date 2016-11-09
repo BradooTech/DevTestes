@@ -20,3 +20,4 @@ class qqrcoisa():
 		novalista.append(3)
 		function2(novalista)
 		print ("starting application")
+		print ("finishing application")
