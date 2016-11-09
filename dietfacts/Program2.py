@@ -10,13 +10,34 @@ class qqrcoisa():
 	#definir funcao2
 	def function2(list):
 		list.append(1)
+		
 		for item in list:
 			print item
 
+		print list
+		#Mais comentarios desnecessários
+
+
+
+
+
+
+
+
+
 	#utilizar as funcoes no main
 	def main():
+
+
 		#Comentario inutil
 		novalista = []
 		novalista.append(3)
 		function2(novalista)
 		print ("starting application")
+
+		#ComentarioRandom
+		
+		while True:
+			print "Verdade!!!"
+
+
