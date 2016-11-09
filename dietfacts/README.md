@@ -14,9 +14,9 @@ There is no particular need to reset and perform a merge with a different strate
 
 >>>>>>> 84405b2fc452d786919bec9ffeda6ff384fad25d
 
+[DIOGO]
 
-
-
+[HELLYEAH]
 <<<<<<< HEAD
 
 
@@ -34,6 +34,30 @@ if the value can be evaluated(like res_id is available), we write value tag as f
 
 If the value is to be searched on some model based on a criteria, we write value tag as follows:
 
+
+
+=======*************===================*******************++++++++++++++++++++++++++++++====================*****************
+
+Debout, les damnés de la terre
+Debout, les forçats de la faim
+La raison tonne en son cratère
+C'est l'éruption de la fin
+Du passé faisons table rase
+Foule esclave, debout, debout
+Le monde va changer de base
+Nous ne sommes rien, soyons tout
+
+ |: C'est la lutte finale
+
+  Groupons-nous, et demain
+  L'Internationale
+  Sera le genre humain :|
+
+
+
+
+
+
     - !function {model: account.invoice, name: pay_and_reconcile}: - model: account.account search: "[('type', '=', 'cash')]" This will fetch all those account.account records whose type is equal to 'cas
 
 [kkkkkllllllllllllllll]
@@ -48,7 +72,7 @@ if the value can be evaluated(like res_id is available), we write value tag as f
         self.action_move_create(cr, uid, [ref("invoice1")])
 
 The invoice must be in draft state:
-
+[DA]
 -
 
     !assert {model: account.invoice , id: invoice1, string: "the invoice is now in Draft state"}:
@@ -59,7 +83,7 @@ To test that all account are in a tree data structure, we write the below python
 
 -
 [´´´´´´´´]
-    python {model: account.account}:
+    !!!!!!!python {model: account.account}:
 
         ids = self.search(cr, uid, [])
 
@@ -67,7 +91,7 @@ To test that all account are in a tree data structure, we write the below python
 
         accounts = dict((x['id'], x) for x in accounts_list)
 
-    
+    [NOWRONG]
 
         for a in accounts_list:
 
@@ -116,3 +140,8 @@ This automatically creates a local branch which tracks the remote branch with th
 1
 
 
+DIOGO EH O CARA! CHUPA ESSA STAG!
+
+
+
+BLA BLA BLA BLA
