@@ -12,13 +12,14 @@ class Dietfacts_product_template(models.Model):
     calories = fields.Integer("Calories")
     totalfat = fields.Float("Total Fat")
     serving_size = fields.Char("Serving Size")
+    carbohydrate = fields.Float("Carbohydrate")
     #field_test_function = fields.Float("Teste", readonly=True)
     
-    '''@api.multi
+    @api.multi
     def calculate_test_field(self):
         self.ensure_one()
         #newvalue = float(self.calories) + self.totalfat
         #self.field_test_function = 0.5
-        self.write({'field_test_function':0.5})
-    '''
+        self.write({'field_test_function':1.0})
+    
     
