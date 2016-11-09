@@ -7,10 +7,12 @@ class qqrcoisa():
 	def function1():
 	
 
-
 	#definir funcao2
 	def function2(list):
-	
+		list.append(1)
+		for item in list:
+			print item
+
 	#utilizar as funcoes no main
 	def main():
 	
